@@ -3,8 +3,8 @@ numero=random.randint(1,10)
 arvaus=int(input('Arvaa arpomani numero: '))
 while arvaus!=numero:
     if arvaus<numero:
-        print('Liian pieni.')
+        print('Arvauksesi on liian pieni.')
     elif arvaus>numero:
-        print('Liian suuri.')
+        print('Arvauksesi on liian suuri.')
     arvaus = int(input('Arvaa arpomani numero: '))
 print('Oikein arvattu!')
