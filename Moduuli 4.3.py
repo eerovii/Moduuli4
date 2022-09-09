@@ -5,4 +5,5 @@ while ((luku.strip('-')).replace('.', '')).isnumeric():
     elif float(luku)>float(suuri):
         suuri=float(luku)
     luku=input('Anna luku: ')
-print('Suurin antamasi luku: ' + str(suuri) + '\nPienin antamasi luku: ' + str(pieni))
+    #printataan stringien ääripäät
+    print('Suurin antamasi luku: ' + str(suuri) + '\nPienin antamasi luku: ' + str(pieni))
